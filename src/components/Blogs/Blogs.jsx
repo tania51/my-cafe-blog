@@ -15,8 +15,6 @@ const Blogs = ({bookmarkHandeler, bookmarkTime}) => {
 
     return (
         <div className="w-2/3">
-            
-        <h2>Hi</h2>
             {
                 blogs.map(blog => <Blog key={blog.id} blog={blog} bookmarkHandeler={bookmarkHandeler} bookmarkTime={bookmarkTime}></Blog>)
             }
